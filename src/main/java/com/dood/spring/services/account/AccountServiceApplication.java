@@ -35,7 +35,8 @@ import java.util.Random;
 @PropertySource("classpath:db-config.properties")
 public class AccountServiceApplication {
 	private static Logger LOG = LoggerFactory.getLogger(AccountServiceApplication.class);
-	public static void main(String[] args) {
+
+    public static void main(String[] args) {
 		SpringApplication.run(AccountServiceApplication.class, args);
 	}
 

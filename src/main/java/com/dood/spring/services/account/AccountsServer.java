@@ -42,7 +42,7 @@ public class AccountsServer {
      */
     public static void main(String[] args) {
         // Tell server to look for accounts-server.properties or
-        // accounts-server.yml
+        // accounts-server.yml.  Comment out if using spring config service????
         System.setProperty("spring.config.name", "accounts-server");//Scan the classpath for accounts-server.yml
 
         SpringApplication.run(AccountsServer.class, args);
