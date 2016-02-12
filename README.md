@@ -19,7 +19,7 @@ of all of them (there are a lot, including these
 4 /metrics - various JVM stats
 5 /trace - Displays trace information (by default the last few HTTP requests).
 6 /info - Displays arbitrary application info.  I think this can be overridden
-7 /flyway - list flyway migrations
+7 /flyway - list flyway migrations (doesn't work, not sure why, probably needs a config or impl)
 8 /autoconfig - Displays an auto-configuration report showing all auto-configuration candidates and the reason why they ‘were’ or ‘were not’ applied.
 9 /actuator - Provides a hypermedia-based “discovery page” for the other endpoints. Requires Spring HATEOAS to be on the classpath.
 
