@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AccountService.iml" filepath="$PROJECT_DIR$/AccountService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SpringMicroServiceDemo/AccountService/AccountService.iml" filepath="$PROJECT_DIR$/../SpringMicroServiceDemo/AccountService/AccountService.iml" />
     </modules>
   </component>
 </project>
