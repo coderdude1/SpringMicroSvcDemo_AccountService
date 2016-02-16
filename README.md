@@ -1,4 +1,4 @@
-#Overview
+# Overview
 This is an implementation of the spring microservices tutorial, rather than just cloning and running it I typed
 it in so I can understand what is going on rather than just reading spring blog entry.  Source is [here](https://spring.io/blog/2015/07/14/microservices-with-spring)
 
@@ -6,10 +6,10 @@ This is a split up version of that (I took the 3 components in the original proj
 projects, so I could experiment with using the spring config service.  this requires the use of the bootstrap.yml
 to set the properties, and each app needs to be set separately.
 
-#Account-Service
+# Account-Service
 uses a H2 db that is populated on startup with some fake data.
 
-#Spring Boot Web Default URL's
+# Spring Boot Web Default URL's
 go to [url list](http://localhost:2222).  [this is a list](https://docs.spring.io/spring-boot/docs/current/reference/html/production-ready-endpoints.html)
 of all of them (there are a lot, including these
 
@@ -23,10 +23,7 @@ of all of them (there are a lot, including these
 8 /autoconfig - Displays an auto-configuration report showing all auto-configuration candidates and the reason why they ‘were’ or ‘were not’ applied.
 9 /actuator - Provides a hypermedia-based “discovery page” for the other endpoints. Requires Spring HATEOAS to be on the classpath.
 
-
-#
-
-#Eureka Registration/Discovery service
+# Eureka Registration/Discovery service
 This is the registry (opensourced by netflix) that spring microservices uses.  Services can register and lookup other
 services here.  The generic name is 'Discovery Server' since there are other implementations besides Eurkea.  There are
 netflix specific annotations and spring-cloud generic impls,  when using the generic it will load whatever impl is on the
@@ -50,7 +47,7 @@ http://localhost:1111/eureka/apps/
 
 The class to run is io.pivotal.microservices.services.registration.RegistrationServer.  It uses SPring Boot
 
-#Account Service
+# Account Service
 Taken from the spring docs:
 
 When configuring applications with Spring we emphasize Loose Coupling and Tight Cohesion, These are not new 
@@ -79,10 +76,10 @@ Spring boot provides some other interesting endpoints (configurable) that show s
 
 For the [account service](http://localhost:2222) will show some of them, including envrionment, trace calls etc.
 
-#Webservice 
+# Webservice 
 This is a rest interface/Thymeleaf app that will be a client to the Accounts microservice.
 
-##Some interesting stuff
+## Some interesting stuff
 The rest template that is used to access the Account microservice has some cool stuff going on.  The @EnableDiscoveryClient
 will recognize the REstEmplate being autowired and injects the microservice connection instead (ie it talks to the DisvoeryServer
 and gets the url (not sure if it does it fore each request, or caches it.)
@@ -90,16 +87,16 @@ and gets the url (not sure if it does it fore each request, or caches it.)
 [This is the url to see the webserver stuff](http://localhost:3333/) it includes links for demoing the microservice calls
 and the beans that provide various metrics and such
 
-#SOme spring boot stuff
+# Some spring boot stuff
 Spring enables certain default endpoings such as  /info and /health that I think can be populated with app specific stuff via
 a callback handler.
 
 
-#Some interesting resources 
+# Some interesting resources 
 [Spring Cloud Netflix Tutorial](http://cloud.spring.io/spring-cloud-netflix/spring-cloud-netflix.html)
 [Microservice Registraion and discovery with spring and eureka](https://spring.io/blog/2015/01/20/microservice-registration-and-discovery-with-spring-cloud-and-netflix-s-eureka)
 
-#Things o look into
+# Things to look into
 
 * Client side loadbalancing (Ribbon and others)
 * Configuration Service

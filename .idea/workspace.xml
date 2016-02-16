@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="101d27ca-fc0e-47d0-b1e4-40d64f20f35e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="AccountService.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,13 +27,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29171818">
+            <state vertical-scroll-proportion="-2.3838384">
               <caret line="69" column="48" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="48" />
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.61761296">
+              <caret line="23" column="131" selection-start-line="23" selection-start-column="131" selection-end-line="23" selection-end-column="131" />
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="MarkdownPreviewEditor">
+            <state />
           </provider>
         </entry>
       </file>
@@ -44,6 +58,13 @@
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
       <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
@@ -236,7 +257,7 @@
       <created>1455480690582</created>
       <option name="number" value="Default" />
       <updated>1455480690582</updated>
-      <workItem from="1455480693761" duration="3919000" />
+      <workItem from="1455480693761" duration="4608000" />
     </task>
     <task id="LOCAL-00001" summary="Trying to fix the migration">
       <created>1455480750970</created>
@@ -250,11 +271,17 @@
       <option name="project" value="LOCAL" />
       <updated>1455480803150</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="minor tweek&#10;">
+      <created>1455586953082</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1455586953082</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3919000" />
+    <option name="totallyTimeSpent" value="4608000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="518" y="38" width="2229" height="1717" extended-state="0" />
@@ -300,7 +327,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Trying to fix the migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to fix the migration" />
+    <MESSAGE value="minor tweek&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor tweek&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -313,10 +341,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29171818">
+        <state vertical-scroll-proportion="-2.3838384">
           <caret line="69" column="48" selection-start-line="69" selection-start-column="44" selection-end-line="69" selection-end-column="48" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61761296">
+          <caret line="23" column="131" selection-start-line="23" selection-start-column="131" selection-end-line="23" selection-end-column="131" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
       </provider>
     </entry>
   </component>
