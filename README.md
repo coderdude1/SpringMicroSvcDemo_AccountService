@@ -48,6 +48,7 @@ below).
 
 # Some interesting resources 
 [Spring Cloud Netflix Tutorial](http://cloud.spring.io/spring-cloud-netflix/spring-cloud-netflix.html)
+
 [Microservice Registraion and discovery with spring and eureka](https://spring.io/blog/2015/01/20/microservice-registration-and-discovery-with-spring-cloud-and-netflix-s-eureka)
 
 
