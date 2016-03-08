@@ -1,6 +1,7 @@
 # Overview
 This is an evolution of a springblog post on microservices with spring.  The original source is
-[here](https://spring.io/blog/2015/07/14/microservices-with-spring)
+[here](https://spring.io/blog/2015/07/14/microservices-with-spring) and provides a great overview of these
+pieces and how they work.
 
 I ended up splitting up the original project that had three tiers (registration server, account micro service, and
 the client webservice) into three separate projects.   This allowed me to inject the spring config service.
